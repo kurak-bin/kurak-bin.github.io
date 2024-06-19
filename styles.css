@@ -1,16 +1,16 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #000; /* Entirely black background */
+    background-color: #000; 
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Prevents scrollbars due to animation */
-    width: 100vw; /* Viewport width */
-    height: 100vh; /* Viewport height */
+    overflow: hidden; 
+    width: 100vw; 
+    height: 100vh; 
     position: fixed;
     display: flex;
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
+    justify-content: center; 
+    align-items: center; 
 }
 
 .container {
@@ -56,7 +56,7 @@ footer {
     height: 2px;
     background-color: #fff;
     animation: twinkling 3s infinite;
-    opacity: 0; /* Start with opacity 0 */
+    opacity: 0; 
 }
 
 @keyframes twinkling {
